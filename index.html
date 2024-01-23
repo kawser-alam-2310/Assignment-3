@@ -1,14 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockey's</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"/>
+      <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
 
+<!-- Navigation Bar  -->
+<header class="container mx-auto relative">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M3.75 6.75H20.25M3.75 12H12.5M3.75 17.25H20.25" stroke="#131318" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-48 font-bold hover:text-[#FF4240]">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost gap-0 font-extrabold text-4xl">Hockey<span class="text-[#FF4240]">'</span>s</a
+        >
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-2">
+          <li class="font-bold hover:text-[#FF4240]"><a>Home</a></li>
+          <li class="font-bold hover:text-[#FF4240]"><a>About</a></li>
+          <li class="font-bold hover:text-[#FF4240]"><a>Pages</a></li>
+          <li class="font-bold hover:text-[#FF4240]"><a>Blog</a></li>
+          <li class="font-bold hover:text-[#FF4240]"><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end gap-2">
+        <div>
+          <img src="images/search.png" alt="">
+        </div>
+        <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+      </div>
+    </div>
+    
     </header>
 
     <main>
@@ -16,7 +58,7 @@
     </main>
 
     <footer>
-        
+
     </footer>
 </body>
 </html>
