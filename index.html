@@ -44,7 +44,7 @@
                 </ul>
             </div>
             <div class="navbar-end gap-2">
-                <div>
+                <div class="hidden lg:flex">
                     <img src="images/search.png" alt="">
                 </div>
                 <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
@@ -148,8 +148,45 @@
         </section>
     </main>
 
-    <footer>
+    <!-- Footer Section -->
 
+    <footer
+        class="mt-12 flex flex-col items-center footer bg-neutral-900 p-10 bg-base-200 text-base-content text-white lg:justify-evenly lg:flex-row lg:items-start lg:mt-28">
+        <div class="flex flex-col text-center items-center lg:text-left lg:items-start">
+            <h1 class="text-xl font-extrabold ">Get In Touch</h1>
+            <p class="opacity-60">Contact Us for any kind of information</p>
+            <h1 class="inline-flex gap-4 mt-1">
+                <img src="images/email.png" alt=""> hockeys@support.com
+            </h1>
+            <h1 class="inline-flex gap-4 mt-1">
+                <img src="images/phone.png" alt="">(+62) 123-321-543
+            </h1>
+        </div>
+        <section class="flex flex-row gap-4 lg:gap-32">
+            <div class="flex flex-col gap-[0.5rem] text-center lg:text-left">
+                <header class="footer-title opacity-100 ">Company</header>
+                <a class="link link-hover opacity-60">About us</a>
+                <a class="link link-hover opacity-60">Leadership</a>
+                <a class="link link-hover opacity-60">Careers</a>
+                <a class="link link-hover opacity-60">News & Article</a>
+                <a class="link link-hover opacity-60">Legal Notice</a>
+            </div>
+            <div class="flex flex-col gap-[0.5rem] text-center lg:text-left">
+                <header class="footer-title opacity-100">Support</header>
+                <a class="link link-hover opacity-60">Help Center</a>
+                <a class="link link-hover opacity-60">FAQ</a>
+                <a class="link link-hover opacity-60">Ticket Support</a>
+                <a class="link link-hover opacity-60">Contact Us</a>
+            </div>
+        </section>
+        <div class="flex flex-col text-center items-center lg:text-left lg:items-start">
+            <header class="footer-title opacity-100 ">Services</header>
+            <a class="link link-hover opacity-60">Academy</a>
+            <a class="link link-hover opacity-60">Group Lesson</a>
+            <a class="link link-hover opacity-60">Private Lesson</a>
+            <a class="link link-hover opacity-60">Hockeys for Kids</a>
+            <a class="link link-hover opacity-60">Hockeys for Adults</a>
+        </div>
     </footer>
 </body>
 
